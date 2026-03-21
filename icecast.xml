@@ -1,0 +1,20 @@
+<icecast>
+  <location>Colombia</location>
+  <admin>admin@radio.com</admin>
+
+  <limits>
+    <clients>100</clients>
+    <sources>2</sources>
+  </limits>
+
+  <authentication>
+    <source-password>1234</source-password>
+    <relay-password>1234</relay-password>
+    <admin-password>admin123</admin-password>
+  </authentication>
+
+  <hostname>0.0.0.0</hostname>
+  <listen-socket>
+    <port>8000</port>
+  </listen-socket>
+</icecast>
