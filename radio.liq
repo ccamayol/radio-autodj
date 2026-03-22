@@ -1,4 +1,6 @@
-radio = playlist("/music")
+radio = playlist(mode="random", "/music")
+
+radio = mksafe(radio)
 
 output.icecast(
   %mp3(bitrate=64),
